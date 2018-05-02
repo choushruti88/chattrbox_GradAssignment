@@ -1,5 +1,5 @@
-# chattrbox_GradAssig
-Graduate Assignment
+# chattrbox_GradAssignment
+Graduate Assignment 
 
 * File path was being extracted with extract.js, it is removed now.
 

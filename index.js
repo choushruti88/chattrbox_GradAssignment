@@ -23,7 +23,6 @@ app.get("/", function($) {
 //missing function is to handle the case when tried page is not accessible
 app.missing(function($) {
   $.header("content-type", "text/html");
-
   $.status("404", "File not found"); // -> 404 not found
 
   fs.readFile(__dirname + "/app/error.html", function(err, data) {

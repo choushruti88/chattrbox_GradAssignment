@@ -1,0 +1,24 @@
+{
+  "name": "chattrbox_gradassig",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "diet": "^0.16.0",
+    "diet-static": "^2.2.0",
+    "jquery": "^3.3.1",
+    "moment": "^2.22.1",
+    "watchify": "^3.11.0",
+    "ws": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "ShrutiChoudhary",
+  "license": "ISC",
+  "description": ""
+}
